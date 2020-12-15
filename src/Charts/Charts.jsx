@@ -12,6 +12,8 @@ const Charts = (props) => {
   const country = props.Country
   const { data: { confirmed, recovered, deaths } } = props
 
+
+
   console.log(props)
 
 
@@ -49,7 +51,8 @@ const Charts = (props) => {
         borderWidth: 1,
         data: [confirmed.value, recovered.value, deaths.value]
       }
-    ]
+    ],
+
   }
 
 
@@ -88,13 +91,24 @@ const Charts = (props) => {
 
   );
 
+  const barglobal = (
 
+    confirmed ? (
+      <Bar
+
+        data={state}
+
+      />
+    ) : null
+
+
+  );
 
 
   return (
 
     <div className="chartmaindiv">
-      {country ? bar : null}
+      {country ? bar : barglobal}
 
 
 
