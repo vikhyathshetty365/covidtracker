@@ -1,0 +1,44 @@
+.cardgrid .cards
+{
+   display: inline-block;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+   
+    
+}
+.cardgrid .confirmed
+{
+    border-bottom: 10px solid rgb(8, 12, 211,0.4)
+}
+
+
+
+.cardgrid .recovered
+{
+    border-bottom: 10px solid rgb(14, 241, 63,0.4);
+}
+
+.cardgrid .death
+{
+    border-bottom: 10px solid rgba(243, 10, 10, 0.4);
+}
+
+.cardgrid .counts
+{
+    
+ margin-left: 50px;
+ margin-right: 50px;   
+display: block;
+}
+.cardgrid .heading
+{
+    margin-left: 50px;
+}
+.cardgrid .para
+{
+    display: flex;
+    margin-left: 50px;
+    
+}
