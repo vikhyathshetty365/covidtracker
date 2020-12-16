@@ -30,7 +30,7 @@ const Cards = (props) => {
 
               <div className="heading">
                 Confirmed
-</div>
+              </div>
             </Typography>
             <Typography className="typo" variant="h5" component="h2" color="textSecondary" gutterBottom>
 

@@ -6,3 +6,32 @@
   justify-content: center;
   justifyContent: 'space-between'
 }
+
+.social
+{
+  display: flex;
+justify-content: space-around;
+ 
+ 
+}
+.social>.MuiSvgIcon-root 
+{
+  font-size: 50px;
+}
+
+.social>.linkedin
+{
+  color:#0e76a8;
+}
+
+.linkedin:hover
+{
+  cursor: pointer;
+  color:lightgray;
+}
+
+.git:hover
+{
+  cursor: pointer;
+  color: lightgray;
+}
